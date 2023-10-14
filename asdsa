@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SneakerLocker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+               <div class="customer-support">
+                <i class="fa-solid fa-headset"></i>
+                <div class="content-customer-support">
+                    <span class="text">Soporte al cliente</span>
+                    <span class="number">+51 976316721</span>
+                </div>
+               </div>
+               <div class="container-logo">
+                <i class="fa-solid fa-shoe-prints"></i>
+                <h1 class="logo"><a href="/">SneakerLocker</a></h1>
+               </div>
+               <div class="container-user">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="content-shopping-cart">
+                    <span class="text">Carrito</span>
+                    <span class="numer">(0)</span>
+                </div>
+               </div>
+            </div>
+        </div>
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Tendencia</a></li>
+                    <li><a href="#">Hombre</a></li>
+                    <li><a href="#">Mujer</a></li>
+                    <li><a href="#">Más</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar..."/>
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="content-banner"> 
+            <p>Lo último</p>
+            <h2>Tenemos tu talla <br>100% originales</h2>
+            <a href="#">Comprar ahora</a>
+        </div>
+    </section>
+    <main class="main-content">
+            <section class="container container-features">
+                <div class="card-feature">
+                    <i class="fa-solid fa-plane-up"></i>
+                    <div class="feature-content">
+                        <span>Envío gratuito a nivel nacional</span>
+                        <p>En pedidos superiores a 150soles</p>
+                    </div>
+                </div>
+                <div class="card-feature">
+                    <i class="fa-solid fa-wallet"></i>
+                    <div class="feature-content">
+                        <span>Reembolso</span>
+                        <p>Devolvemos el 100% de tu dinero</p>
+                    </div>
+                </div>
+                <div class="card-feature">
+                    <i class="fa-solid fa-gift"></i>
+                    <div class="feature-content">
+                        <span>Tarjeta de regalo especial</span>
+                        <p>Ofrece bonos especiales con regalo</p>
+                    </div>
+                </div>
+                <div class="card-feature">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="feature-content">
+                        <span>Servicio al cliente las 24 horas del día</span>
+                        <p>Llámenos al +51 976316721</p>
+                    </div>
+                </div>
+            </section>
+            <section class="container top-categories">
+                <h1 class="heading-1">Mejores Categorías</h1>
+                <div class="container-categories">
+                    <div class="card-category category-combinable-modesto">
+                        <p>Modelos que combinan con cualquier prenda </p>
+                        <span>Ver más</span>
+                    </div>
+                    <div class="card-category category-colaboraciones">
+                        <p>Modelos de las mejores colaboraciones con artistas</p>
+                        <span>Ver más</span>
+                    </div>
+                    <div class="card-category category-comfort">
+                        <p>Modelos para sentirse cómodo y libre</p>
+                        <span>Ver más</span>
+                    </div>
+                </div>
+            </section>
+            <section class="container top-products">
+                <h1 class="heading-1">Mejores Productos</h1>
+                <div class="container-options">
+                    <span class="active">Destacados</span>
+                    <span>Más recientes</span>
+                    <span>Mejores Vendidos</span>  
+                </div>
+                <div class="container-products">
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes sneaker/af1.jpeg" alt="img">
+                            <span class="discount">-13%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h3>Nike Air Force 1 color White</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                            <p class="price">S/. 452 <span>S/. 520</span></p>
+                        </div>
+                    </div>
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes sneaker/dunkelowpanda.jpeg" alt="img">
+                            <span class="discount">-15%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare">
+                                </i></span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Nike Dunk Low Panda Black and White</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                            <p class="price">S/. 459 <span>S/. 540</span></p>
+                        </div>
+                    </div>
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes sneaker/Jordan1mocha.jpeg" alt="img">
+                            <span class="discount">-23%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Nike Air Jordan 1 High Dark Mocha</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                            <p class="price">S/. 2,295 <span>S/. 2,980</span></p>
+                        </div>
+                    </div>
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes sneaker/superstar.jpeg" alt="img">
+                            <span class="discount">-20%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span><i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Adidas Original Superstar Black and White</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                            <p class="price">S/. 344 <span>S/. 430</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <section class="formulario-container">
+        <form method="post" autocomplete="off">
+            <h2>Registrate</h2>
+            <div class="input-group">
+                <div class="input-container">
+                    <input type="text" name="name" placeholder="Nombre y Apellido">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-container">
+                    <input type="tel" name="phone" placeholder="Telefono">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="input-container">
+                    <input type="email" name="email" placeholder="Correo">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-container">
+                    <textarea name="message" placeholder="Otros datos"></textarea>
+                </div>
+                <input type="submit" name="send" class="btn" onclick="myfunction()">
+            </div>
+         </form>
+    </section>
+    <script 
+    src="https://kit.fontawesome.com/26c8311360.js" 
+    crossorigin="anonymous">
+    </script>
+</body>
+</html>
